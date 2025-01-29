@@ -1,6 +1,6 @@
-package templateMethodTest.display;
+package templateMethodTest.problem;
 
-public class StringDisplay extends AbstractDisplay {
+public class StringDisplay implements AbstractDisplay {
     private String str;
     private int width;
 

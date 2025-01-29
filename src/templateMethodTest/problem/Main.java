@@ -1,4 +1,4 @@
-package templateMethodTest.display;
+package templateMethodTest.problem;
 
 public class Main {
     public static void main(String[] args) {
