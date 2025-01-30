@@ -20,12 +20,12 @@ public class IDCardFactory extends Factory {
     @Override
     protected void registerProduct(Product product) {
         IDCard idCard = (IDCard) product;
-        Iterator<IDCard> i = new IDCardListIterator(idCardList);
+        Iterator i = idCardList.iterator();
         int number = 0;
 
         re : while(number<Long.MAX_VALUE){
             while(i.hasNext()){
-                IDCard cur = i.next();
+                IDCard cur = (IDCard) i.next();
                 if(cur==idCard) break;
                 if(cur.getNumber() == number){
                     number++;
