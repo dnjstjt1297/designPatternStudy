@@ -45,6 +45,6 @@ public class MDBuilder implements Builder {
     }
 
     public String getFileResult() {
-        return sb.toString();
+        return fileName;
     }
 }
