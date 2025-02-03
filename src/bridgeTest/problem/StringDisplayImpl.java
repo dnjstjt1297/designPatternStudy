@@ -1,4 +1,4 @@
-package bridgeTest;
+package bridgeTest.problem;
 
 public class StringDisplayImpl extends DisplayImpl {
     private String string;

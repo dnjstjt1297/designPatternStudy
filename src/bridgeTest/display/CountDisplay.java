@@ -1,4 +1,4 @@
-package bridgeTest;
+package bridgeTest.display;
 
 public class CountDisplay extends Display {
 

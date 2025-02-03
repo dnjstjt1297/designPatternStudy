@@ -1,4 +1,4 @@
-package bridgeTest;
+package bridgeTest.problem;
 
 public abstract class DisplayImpl {
     public abstract void rawOpen();
